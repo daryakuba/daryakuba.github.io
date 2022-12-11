@@ -1,0 +1,129 @@
+@media only screen and (max-width : 2190px),
+only screen and (max-device-width : 2190px){
+  .flex  {
+  width: 10%;
+  }
+}
+
+@media only screen and (max-width : 1400px),
+only screen and (max-device-width : 1400px){
+  .flex  {
+  width: 15%;
+  }
+}
+
+@media only screen and (max-width : 940px),
+only screen and (max-device-width : 940px){
+  .flex  {
+  width: 21%;
+  }
+}
+
+@media only screen and (max-width : 720px),
+only screen and (max-device-width : 720px){
+  .flex  {
+  width: 29.33333%
+  }
+}
+
+@media only screen and (max-width : 530px),
+only screen and (max-device-width : 530px){
+  .flex  {
+  width: 46%
+  }
+}
+
+@media only screen and (max-width : 320px),
+only screen and (max-device-width : 320px){
+  .flex {
+  width: 96%
+  }
+}
+
+.wrapper {
+  text-align: center;
+  background-image: linear-gradient(#3c3d41, #808080);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.cart {
+  width: 180px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  transition: 0.1s ease-in;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cart:hover {
+  background: #b9bdc9;
+  border-radius: 4px;
+  border: 1px solid #93969f;
+  box-shadow: 0 0 20px #b9bdc9;
+}
+
+.cart:not(:first-child) {
+  margin-left: 20px;
+}
+
+img {
+  max-width: 150px;
+  object-fit: cover;
+}
+
+.description {
+  font-size: 14px;
+  text-align: left;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.price {
+  margin: 20px auto;
+  transition: color 0.1s ease-in;
+}
+
+.cart:hover .price {
+  color: #3f3f3f;
+  font-weight: 700;
+}
+
+.button {
+  margin: 20px auto;
+}
+
+.button button {
+  border: none;
+  outline: none;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #3f3f3f;
+  border-radius: 30px;
+  transition: scale 0.1s ease-in;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover button {
+  transform: scale(1.1);
+  background-color: #7f7f7f;
+}
+
+.description p {
+  color: white;
+}
+
+.price p {
+  color: white;
+}
